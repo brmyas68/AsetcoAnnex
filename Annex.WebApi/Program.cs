@@ -49,7 +49,7 @@ builder.Services.AddCors(options =>
         builder => builder
            //.SetIsOriginAllowed( _ => true)
            //.AllowAnyOrigin()
-           .WithOrigins("https://localhost:3000", "https://www.homacall.com", "https://uc.homacall.com", "https://god-asetco.netlify.app", "https://api.homacall.com")
+           .WithOrigins("https://localhost:3000", "https://www.asetcoyadak.com", "https://uc.asetcoyadak.com", "https://god-asetco.netlify.app", "https://api.asetcoyadak.com")
           .AllowAnyMethod()
           .AllowAnyHeader()
           .AllowCredentials()
